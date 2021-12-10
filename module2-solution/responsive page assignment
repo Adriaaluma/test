@@ -119,7 +119,7 @@ p {
 
 /********** Mobile devices only **********/
 @media (max-width: 767px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  .col-sd-1, .col-sd-2, .col-sd-3, .col-sd-4, .col-sd-5, .col-sd-6, .col-sd-7, .col-sd-8, .col-sd-9, .col-sd-10, .col-sd-11, .col-sd-12 {
     float: left;
     border: 1px solid green;
   }
@@ -167,14 +167,9 @@ p {
 <h1>Our Menu</h1>
 
 <div class="row">
-  <div class="col-lg-3 col-md-6"><p>Item 1</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 2 Wow this is cool</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 3</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 4</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 5 This is cool</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 6</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 7</p></div>
-  <div class="col-lg-3 col-md-6"><p>Item 8</p></div>
+  <div class="col-lg-3 col-md-6 col-sd-9"><p>Chicken</p></div>
+  <div class="col-lg-3 col-md-6 col-sd-9"><p>Beef</p></div>
+  <div class="col-lg-3 col-md-6 col-sd-9"><p>Sushi</p></div>
 </div>
 
 </body>
